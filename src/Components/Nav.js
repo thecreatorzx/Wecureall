@@ -16,7 +16,7 @@ const Nav = () => {
         </Link>
       <div className="Patients" onClick={expand()}>
       <Link className="Patients1" to="/">
-          For Patients <i>&#10147;</i>
+          For Patients &#10147;
         </Link>
       {/* <Link className="Patients2" to="/">
           For Patients2
@@ -27,7 +27,7 @@ const Nav = () => {
         </div>
       <div className="Info" onClick={expand}>
       <Link className="Info" to="/">
-          Info1  <i>&#10147;</i>
+          Info &#10147;
         </Link>
       {/* <Link className="Info2" to="/">
           Info2
