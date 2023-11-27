@@ -1,0 +1,119 @@
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 16px;
+    }
+   .container {
+    width: 100%;
+    padding: 10px;
+    }
+    .y_us_content{
+      display: inline-block;
+      margin: 5%;
+    }
+  
+    .y_us_col{
+      display: block;
+    }
+  
+    .col_I{
+      display: flex;
+    }
+  
+    .col_II{
+      display: flex;
+    }
+  
+    #I{
+      border-radius: 10px;
+      padding: 30px 30px 30px 30px;
+      border: 1px solid;
+      box-shadow: 10px 10px 10px;
+      margin:30px 30px 30px 30px;
+    }
+  
+    #II{
+      border-radius: 10px;
+      padding: 30px 30px 30px 30px;
+      border: 1px solid;
+      box-shadow: 10px 10px 10px;
+      margin:30px 30px 30px 30px;
+    }
+  
+    #III{
+      border-radius: 10px;
+      padding: 30px 30px 30px 30px;
+      border: 1px solid;
+      box-shadow: 10px 10px 10px;
+      margin:30px 30px 30px 30px;
+    }
+  
+    #IV{
+      border-radius: 10px;
+      padding: 30px 30px 30px 30px;
+      border: 1px solid;
+      box-shadow: 10px 10px 10px;
+      margin:30px 30px 30px 30px;
+    }
+}
+  
+@media screen and (min-width: 769px) {
+  /* Add your regular styles here for larger screens */
+  body {
+    font-size: 18px;
+  }
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .y_us_content{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .y_us_col{
+    display: block;
+  }
+
+  .col_I{
+    display: flex;
+  }
+
+  .col_II{
+    display: flex;
+  }
+
+  #I{
+    border-radius: 10px;
+    padding: 30px 30px 30px 30px;
+    border: 1px solid;
+    margin:30px 30px 30px 30px;
+  }
+
+  #II{
+    border-radius: 10px;
+    padding: 30px 30px 30px 30px;
+    border: 1px solid;
+    margin:30px 30px 30px 30px;
+  }
+
+  #III{
+    border-radius: 10px;
+    padding: 30px 30px 30px 30px;
+    border: 1px solid;
+    margin:30px 30px 30px 30px;
+  }
+
+  #IV{
+    border-radius: 10px;
+    padding: 30px 30px 30px 30px;
+    border: 1px solid;
+    margin:30px 30px 30px 30px;
+  }
+}
+
+.y_us{
+  display: flex;
+  justify-content: center;
+  text-align:center;
+}
